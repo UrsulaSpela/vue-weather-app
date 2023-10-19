@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  min-width: 320px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-image: url(images/sunny.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.date {
+  margin: 10px 0;
+}
+
+.search-bar {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  font-size: large;
+  text-align: center;
+  background: hsla(0, 0%, 0%, 0.2);
+  margin-bottom: 30px;
+  color: white;
+}
+
+.search-bar:focus {
+  outline: 1px solid deeppink;
+}
+
+.weather-container {
+  background-color: hsla(0, 0%, 0%, 0.4);
+  min-height: 20vh;
+  width: 100%;
+}
+
+.location-box {
+  width: 100%;
+}
+
+.location {
+  text-transform: uppercase;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+.weather {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.advice {
+  padding: 50px 30px;
+}
